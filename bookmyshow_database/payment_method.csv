@@ -1,0 +1,11 @@
+payment_method_id,user_id,payment_type,payment_details
+1,1,"Credit Card",XXXX-XXXX-XXXX-1234
+2,2,"Debit Card",XXXX-XXXX-XXXX-5678
+3,3,"Net Banking",SBI
+4,4,"Credit Card",XXXX-XXXX-XXXX-2345
+5,5,"Debit Card",XXXX-XXXX-XXXX-6789
+6,6,"Net Banking",ICICI
+7,7,"Credit Card",XXXX-XXXX-XXXX-3456
+8,8,"Debit Card",XXXX-XXXX-XXXX-7890
+9,9,"Net Banking",HDFC
+10,10,"Credit Card",XXXX-XXXX-XXXX-4567

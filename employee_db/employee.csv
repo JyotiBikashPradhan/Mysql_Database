@@ -1,0 +1,8 @@
+Emp_id,Emp_name,Address,AGE,Email,Phone_number,Hire_date,Job_id,Salary,Manager_id,Dept_id
+7367,"Virta raina",chennai,0,raina@gmail.com,938241552,2000-01-20,18,20000.00,20,19
+7369,"Rohit Sharma",hydrabad,0,rohit@gmail.com,8093159825,1980-12-17,05,20000.00,79,20
+7370,"Rashmi das",kendrapada,0,das@gmail.com,9999444422,2021-04-20,15,5000.00,48,2
+7377,"Sourav Rout",kendrapada,0,rani@gmail.com,25456554654,2022-04-10,17,6000.00,2,5
+7378,"Anupama Mitesh ",bhanjanagr,0,mca@gmail.com,252525,2022-04-10,17,70000.00,0,15
+7379,"Surya Gaikward",chennai,0,surya@gmail.com,2525252525,2022-04-10,18,15000.00,5,5
+7380,"Dinesh singh",chennai,0,singh@gmail.com,8249425641,2002-04-20,15,10000.00,21,19

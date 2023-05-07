@@ -1,0 +1,7 @@
+Dept_id,Dept_name,Dept_head,Description,Created_at
+1,Marketing,"John Smith","Responsible for promoting the company and its products","2023-04-25 13:29:34"
+5,Sales,"Jane Doe","Responsible for selling the company's products and services","2023-04-25 13:29:34"
+15,"Human Resources","Bob Johnson","Responsible for hiring, training, and managing employees","2023-04-25 13:29:34"
+19,Engineering,"Mike Smith","Responsible for developing new products and maintaining existing ones","2023-04-25 13:29:34"
+20,Finance,"Mary Johnson","Responsible for managing the company's financial operations","2023-04-25 13:29:34"
+22,IT,"Tom Williams","Responsible for managing the company's information technology systems","2023-04-25 13:29:34"

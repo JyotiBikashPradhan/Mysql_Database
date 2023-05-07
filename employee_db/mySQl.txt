@@ -1,0 +1,119 @@
+1) data definition language
+create 
+alter
+drop 
+truncate
+
+CREATE SCHEMA employee;   //  CREATE DATABASE employee
+
+USE employee;
+
+(i) create:-
+CREATE TABLE my_table (
+   id INT NOT NULL,
+   name VARCHAR(50) DEFAULT NULL,
+   age INT DEFAULT NULL
+);
+
+(ii) ALTER-The ALTER statement is always used with "ADD", "DROP" and "MODIFY"
+
+add column :-  ALTET TABLE employee ADD AGE integer DEFAULT NULL
+add column after a coumn:- ALTER TABLE employee  
+					ADD address varchar(100) NOT NULL  
+					AFTER name,  
+					ADD salary int(100) NOT NULL  
+					AFTER age ;  
+
+modify column definition(datatype):- 
+ALTER TABLE employees MODIFY COLUMN Emp_id integer;
+
+
+drop column :-
+ALTER TABLE employee DROP age
+
+drop table :- DROP TABLE Shippers;
+
+Rename column name:-
+ALTER TABLE  employees
+CHANGE COLUMN Emp_name e_name   old to new
+varchar(20) NOT NULL;  
+
+
+Rename table:-
+ALTER TABLE employee RENAME TO company_db
+RENAME TABLE customer TO employees; 
+
+
+
+(iii)TRUNCATE:-
+TRUNCATE TABLE customer; 
+
+
+
+
+
+
+2) data manipulation language
+insert 
+update
+delete
+
+
+insert
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+
+NSERT INTO People VALUES  
+(102, 'Joseph', 'Developer', 30),  
+(103, 'Mike', 'Leader', 28),  
+(104, 'Stephen', 'Scientist', 45);  
+
+
+
+update:- 
+UPDATE employees SET EMAIL = 'surya@gmail.com' WHERE (Emp_id = '7379');
+
+delete:-
+DELETE FROM Employees WHERE emp_id=107;  
+
+3) data control language 
+grant 
+revoke
+
+4) data query language
+select
+
+SELECT * FROM Products
+WHERE Price = 18;
+
+SELECT * FROM Products
+WHERE Price <> 18; (not equal)
+
+SELECT * FROM Products
+WHERE Price BETWEEN 50 AND 60;
+
+SELECT * FROM Customers
+WHERE City LIKE 's%'; (pattern)
+
+SELECT * FROM Customers
+WHERE City IN ('Paris','London');
+
+
+SELECT * FROM Products
+WHERE Price > 30;
+
+SELECT * FROM Customers
+WHERE City IN ('Paris','London', 'Cowes');
+
+SELECT CustomerName, City, Country FROM Customers;
+
+min max
+SELECT MIN(Price) AS SmallestPrice
+FROM Products;
+
+
+order by:-
+
+SELECT * FROM employees
+ORDER BY Address ASC, emp_name DESC;
+

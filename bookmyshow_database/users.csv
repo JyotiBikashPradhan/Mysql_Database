@@ -1,0 +1,11 @@
+user_id,name,PHONE,email,password
+1,"rohit sharma",1234567890,john.smith@example.com,password123
+2,"virat kohili",0987654321,jane.doe@example.com,password456
+3,"suresh raina",5555555555,bob.johnson@example.com,password789
+4,"sanju samson",1111111111,alice.lee@example.com,passwordabc
+5,"ashok dinda",2222222222,michael.chen@example.com,passworddef
+6,"rishav pant",3333333333,karen.brown@example.com,passwordghi
+7,"shikhaer dhawan",4444444444,david.kim@example.com,passwordjkl
+8,"sachin tendulkar",6666666666,emily.liu@example.com,passwordmno
+9,"tilak verma ",7777777777,steven.davis@example.com,passwordpqr
+10,"axar Patel",8888888888,olivia.patel@example.com,passwordstu
